@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.layover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+/*container*/
+.container{
+    width: 75%;
+    margin: auto;
+    
+}
+/*end container*/
+
+
+/*header*/
+header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.menu{
+    margin-bottom: 20px;
+}
+.link{
+    list-style-type: none;
+}
+.link li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: #909090;
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+/*end header*/
+
+/*main*/
+
+.banner{
+    height: 500px;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.banner .title{
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+    width: 50%;
+    color: white;
+    
+}
+
+
+
+
+
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.blue{
+    background-color:blue;
+    height: 500px;
+    padding-bottom: 10px;
+}
+
+/*row*/
+.row{
+    background-color: cyan;
+    height: 10%;
+    border-bottom: 10px solid blue;
+}
+/*end row*/
+
+/*col*/
+.col{
+    background-color: cyan;
+    height: 90%;
+    float: left;
+
+}
+
+.col-left,
+.col-right{
+    width: 20%;
+}
+
+.col-center{
+    width: 58%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/*end col*/
+
+
+/*footer*/
+footer{
+    background-color: purple;
+    height: 70px;
+    margin-top: 20px;
+}
+/*end footer*/
