@@ -17,6 +17,9 @@ body{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 /*container*/
 .container{
@@ -29,8 +32,7 @@ body{
 
 /*header*/
 header{
-    margin-top: 20px;
-    margin-bottom: 20px;
+   margin: 20px 0px;
 }
 
 .logo img{
@@ -76,13 +78,17 @@ a{
     
 }
 
+.second-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
 .blue{
-    height: 500px;
     padding-bottom: 10px;
 }
 .text{
@@ -105,6 +111,11 @@ a{
 }
 .col-img{
     height: 300px;
+    position: relative;
+}
+.col-img img{
+    object-fit: cover;
+    height: 100%;
 }
 
 .col-left,
@@ -118,14 +129,22 @@ a{
     margin-right: 1%;
 }
 
+h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 
 /*end col*/
 
 
 /*footer*/
-footer{
-    background-color: purple;
-    height: 70px;
+.end{
     margin-top: 20px;
+    text-align: center;
+}
+
+.red{
+    color: red;
 }
 /*end footer*/
